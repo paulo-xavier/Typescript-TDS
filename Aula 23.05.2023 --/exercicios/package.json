@@ -1,0 +1,24 @@
+{
+  "name": "exercicios",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx tsc && node ./build/ex1.js",
+    "start2": "npx tsc && node ./build/ex2.js",
+    "start3": "npx tsc && node ./build/ex3.js",
+    "start4": "npx tsc && node ./build/ex4.js",
+    "start5": "npx tsc && node ./build/ex5.js",
+    "start6": "npx tsc && node ./build/ex6.js",
+    "start7": "npx tsc && node ./build/ex7.js",
+    "start8": "npx tsc && node ./build/ex8.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/readline-sync": "^1.4.4",
+    "readline-sync": "^1.4.10"
+  },
+  "description": ""
+}
