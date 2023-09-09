@@ -1,0 +1,16 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const Transaction_1 = require("./Transaction");
+const UserAccount_1 = require("./UserAccount");
+const Bank_1 = require("./Bank");
+let paul = new UserAccount_1.UserAccount("03243434343", "Paul", 18);
+let credit = new Transaction_1.Transaction("Loan", 2000, "2023-01-23");
+console.log(credit);
+paul.AddTransaction(credit);
+console.log("\n------------------------\n");
+console.log(paul);
+let bankSenac = new Bank_1.Bank();
+console.log("******************");
+bankSenac.setAccount(paul);
+console.log(bankSenac.getAccounts());
+console.log("******************");
