@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "name": "aula-04.07.2023---heritage",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx tsc && node ./build/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
